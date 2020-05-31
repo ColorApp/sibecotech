@@ -1,0 +1,23 @@
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Montserrat";
+  color: rgba(var(--dark), 1);
+}
+
+p, span, a {
+  font-size: 1.115em;
+  font-family: "Segoe";
+  color: rgba(var(--dark), 1);
+}
+
+p {
+  margin-bottom: 0.8rem;
+}
+
+@media screen and (max-width: 578px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}

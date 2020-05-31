@@ -1,0 +1,7 @@
+.card.border-none {
+  border: none;
+}
+
+.card.dense .card-body {
+  padding: 0.5rem 1.25rem !important;
+}

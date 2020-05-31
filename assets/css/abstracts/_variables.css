@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Montserrat";
+  font-weight: bold;
+  src: url('../../fonts/montserrat/Montserrat-Bold.ttf');
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-style: italic;
+  src: url('../../fonts/montserrat/Montserrat-BoldItalic.ttf');
+}
+
+@font-face {
+  font-family: "Segoe";
+  font-weight: normal;
+  src: url('../../fonts/segoe/SegoeUI.ttf');
+}
+
+@font-face {
+  font-family: "Segoe";
+  font-weight: normal;
+  font-style: italic;
+  src: url('../../fonts/segoe/SegoeUI-Italic.ttf');
+}
+
+:root {
+  --dark: 70,70,70;
+  --primary: 239, 131, 27;
+}
